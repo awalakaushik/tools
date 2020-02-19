@@ -16,3 +16,17 @@ END
 -- Just replace __TableName__ and __ColumnName__ with the appropriate values.  You can safely run this even if the column has already been dropped.
 
 -- Credits: http://www.archonsystems.com/devblog/2012/05/25/how-to-drop-a-column-with-a-default-value-constraint-in-sql-server/
+
+
+
+
+
+**************************************************************************************************************************************
+-- Add column if not exists by checking sys.columns
+IF NOT EXISTS (
+  SELECT * 
+  FROM   sys.columns 
+  WHERE  object_id = OBJECT_ID(N'[dbo].__TABLENAME__') 
+         AND name = '__COLUMNNAME__'
+)
+alter table __TABLENAME__ add __COLUMNNAME__ __DATATYPE__ __NULL|NOTNULL__ default _VALUE
