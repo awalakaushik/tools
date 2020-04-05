@@ -8,19 +8,19 @@
 - Rename your `bash_profile` to `.bash_profile`
 
 
-```mv ~/bash_profile ~/.bash_profile```
+  ```mv ~/bash_profile ~/.bash_profile```
 
 - Copy `terminal-configuration` directory from `tools` to your home directory
 
 
-```mv terminal-configuration ~/```
+  ```mv terminal-configuration ~/```
 
 - Rename the directory
 
 
-```mv ~/terminal-configuration ~/.terminal-configuration```
+  ```mv ~/terminal-configuration ~/.terminal-configuration```
 
 - Source the `.bash_profile`
 
 
-```source ~/.bash_profile```
+  ```source ~/.bash_profile```
