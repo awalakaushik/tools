@@ -25,7 +25,7 @@
   - Open `.bash.profile` in your favorite text editor and edit the following line
 
 
-```export PS1="$red"{custom_name}"$green\$(__git_ps1)$blue \W```
+  - ```export PS1="$red"{custom_name}"$green\$(__git_ps1)$blue \W```
 
 
 Replace `{custom_name}` with your own text within the double quotes
