@@ -1,6 +1,6 @@
 # Steps to follow to configure your terminal
 
-- From tools repository, move `bash_profile` to your home directory from `terminal-configuration` directory
+- Move `bash_profile` to your home directory from `terminal-configuration` directory
 
 
   ```mv terminal-configuration/bash_profile ~/```
