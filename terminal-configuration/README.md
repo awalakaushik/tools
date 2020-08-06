@@ -36,4 +36,5 @@
   ```source ~/.bash_profile```
 
 - Terminal Screenshot Output
+
 ![alt text](https://github.com/awalakaushik/tools/blob/master/terminal-configuration/terminal-screenshot.png "Terminal Screenshot")
