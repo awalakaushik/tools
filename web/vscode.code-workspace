@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"files.autoSaveDelay": 5000,
+		"editor.wrappingIndent": "indent",
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.formatOnSaveMode": "file",
+		"javascript.autoClosingTags": true,
+		"javascript.format.enable": true,
+		"javascript.format.insertSpaceAfterCommaDelimiter": true,
+		"javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+		"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+		"javascript.inlayHints.parameterNames.enabled": "all",
+		"javascript.preferences.quoteStyle": "auto",
+		"javascript.suggest.autoImports": true,
+		"javascript.suggest.completeJSDocs": true,
+		"javascript.updateImportsOnFileMove.enabled": "prompt",
+		"javascript.suggest.paths": true,
+		"javascript.referencesCodeLens.enabled": true,
+		"javascript.referencesCodeLens.showOnAllFunctions": true,
+		"editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+	}
+}
